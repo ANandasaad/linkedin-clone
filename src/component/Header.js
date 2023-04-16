@@ -1,17 +1,21 @@
-import React from 'react'
-import { AiFillHome } from "react-icons/ai";
+import React, { useState } from 'react'
+import { AiFillCaretDown, AiFillHome } from "react-icons/ai";
 import { RiGroupFill } from "react-icons/ri";
 import { BsFillBagDashFill } from "react-icons/bs";
 import { RiMessage2Fill } from "react-icons/ri";
 import { MdNotificationsActive } from "react-icons/md";
-import { CgProfile } from "react-icons/cg";
+import { GrApps } from "react-icons/gr";
 
 
 import Icon from './Icons/Icon';
+import Logo from './Icons/Logo';
+
 
 
 
 const Header = () => {
+  
+
   return (
     <div className='flex justify-around   px-1 py-1 border border-gray-600 w-full bg-white  '>
       
@@ -29,9 +33,20 @@ const Header = () => {
                 <Icon  icons={<BsFillBagDashFill/>} title='Jobs'/>
                 <Icon  icons={<RiMessage2Fill/>} title='Messaging'/>
                 <Icon icons={<MdNotificationsActive/>} title='Notification'/>
-                <Icon icons={<CgProfile/>} title='Me'/>     
+                <Logo/> 
+                <div className='flex flex-col items-center  border-l-[1px] px-2 max-mobile:hidden'>
+                <li className='hover:text-gray-700 text-2xl text-gray-500 '><GrApps/></li>
+                <div className='flex items-center'>
+               <li className='max-mobile:text-[10px] hover:underline'>For Bussiness </li>
+               <span><AiFillCaretDown/></span>
+               </div>
+              </div>   
             </ul>
+         
         </div>
+    
+
+       
 
     </div>
   )

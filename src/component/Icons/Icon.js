@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const Icon = ({icons,title}) => {
   return (
     <div className='flex flex-col items-center '>
@@ -9,4 +10,4 @@ const Icon = ({icons,title}) => {
   )
 }
 
-export default Icon
+export default Icon;

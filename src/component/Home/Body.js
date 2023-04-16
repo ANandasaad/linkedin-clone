@@ -8,6 +8,7 @@ const Body = () => {
  
     <div className='flex bg-gray-100'>
         <SideBar/>
+      
     </div>
     </>
   )
