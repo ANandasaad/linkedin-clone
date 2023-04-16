@@ -22,14 +22,14 @@ const Header = () => {
 
       
         </div> 
-        <div className=''>
+        <div className='max-mobile:fixed max-mobile:bottom-0 max-mobile:left-0 max-mobile:z-50'>
             <ul className='flex space-x-5 px-2 py-2'>
                 <Icon icons={<AiFillHome/>} title='Home'/>
                 <Icon icons={<RiGroupFill/>} title='My Network'/>
-                <Icon icons={<BsFillBagDashFill/>} title='Jobs'/>
-                <Icon icons={<RiMessage2Fill/>} title='Messaging'/>
+                <Icon  icons={<BsFillBagDashFill/>} title='Jobs'/>
+                <Icon  icons={<RiMessage2Fill/>} title='Messaging'/>
                 <Icon icons={<MdNotificationsActive/>} title='Notification'/>
-                <Icon icons={<CgProfile/>} title='Profile'/>     
+                <Icon icons={<CgProfile/>} title='Me'/>     
             </ul>
         </div>
 
