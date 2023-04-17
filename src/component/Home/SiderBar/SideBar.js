@@ -5,7 +5,7 @@ import SideBarBottom from './SideBarBottom'
 const SideBar = () => {
   return (
     <>
-    <div className='mx-2 basis-1/5 sticky top-20'>
+    <div className='mx-2 basis-1/6 max-mobile:hidden'>
      
         <SideBarTop/>
         <SideBarBottom/>

@@ -3,7 +3,7 @@ import { RxAvatar } from "react-icons/rx";
 
 const SideBarTop = () => {
   return (
-    <div className=" rounded-lg border border-gray-200  h-fit bg-white ">
+    <div className=" rounded-lg border border-gray-200  h-fit bg-white my-5 sticky top-0">
       <div className="flex flex-col items-center border-b-[1px]">
         <img alt="backgound rounded-lg h-fit"  src="https://media.licdn.com/dms/image/C4E16AQFbh_xiE78wBA/profile-displaybackgroundimage-shrink_350_1400/0/1660159718031?e=1687392000&v=beta&t=9KiXYMje3cqGjNcw6YbjD4cYhmtfcDjFLT1PuF9aVpg" />
         <RxAvatar className="text-[40px] mt-[-17px] text-gray-500 bg-gray-50 rounded-full " />
@@ -13,10 +13,10 @@ const SideBarTop = () => {
 
       <div className="my-2 border-b-[1px]">
         <div className="my-2">
-          <p className="hover:bg-gray-100 text-center ">Who's viewed your profile <span className="text-left px-4 text-blue-600 font-bold">1042</span></p>
+          <p className="hover:bg-gray-100 text-center text-[15px] ">Who's viewed your profile <span className=" px-1 text-blue-600 font-bold text-[12px]">1042</span></p>
         </div>
         <div className="my-2">
-          <p className="hover:bg-gray-100  text-center ">Impresssion of Your Post <span className="text-left px-4  text-blue-600 font-bold">513</span></p>
+          <p className="hover:bg-gray-100  text-center text-[15px] ">Impresssion of Your Post <span className=" px-1  text-blue-600 font-bold text-[12px]">513</span></p>
         </div>
       </div>
 

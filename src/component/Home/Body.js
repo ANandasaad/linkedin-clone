@@ -1,13 +1,16 @@
 import React from 'react'
-import SideBar from './SideBar'
+
 import Header from '../Header'
+import Main from './Main'
 
 const Body = () => {
   return (
     <>
  
-    <div className='flex bg-gray-100'>
-        <SideBar/>
+    <div className=' bg-gray-100 max-mobile:block  '>
+
+      <Main/>
+       
       
     </div>
     </>
